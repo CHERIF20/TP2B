@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TP2</string>
+    <string name="about_text">Bienvenue au département de génie électrique et informatique!
+      Le Département de génie électrique et de génie informatique forme des ingénieures, ingénieurs
+        et des spécialistes dans des domaines de pointe très diversifiés. Nos finissantes et finissants
+        deviendront des acteurs essentiels de l\'intégration des technologies dans nos vies quotidiennes.
+        Ils seront en mesure de relever les défis relatifs à l\'énergie, que l\'on pense aux éoliennes,
+        aux voitures électriques ou aux communications et systèmes d\'information et d’intelligence artificielle
+        que nous utilisons dans nos loisirs et au travail. La technologie développée par les ingénieures et
+        ingénieurs ayant fait un saut au Département de génie électrique et de génie informatique se trouve
+        partout; de la maison aux satellites, en passant par les hôpitaux et le monde industriel.
+        Considérant le dynamisme du personnel, les innombrables services offerts aux étudiantes et étudiants,
+        une association étudiante dynamique, des équipements maintenus à la fine pointe, des professeures et
+        professeurs reconnus internationalement et en ajoutant à tout cela un esprit de collaboration,
+        vous comprendrez à quel point notre Département est un incontournable!
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TP2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Couleurs primaires -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Désactivation de l'ActionBar native -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#808080</item>
+    </style>
+
+</resources>

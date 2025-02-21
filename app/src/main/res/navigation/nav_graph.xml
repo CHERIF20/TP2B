@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/aboutFragment">
+
+    <fragment
+        android:id="@+id/internetStatusFragment"
+        android:name="ca.ulaval.ima.tp2.ui.fragments.InternetStatusFragment"
+        android:label="Statut Internet" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="ca.ulaval.ima.tp2.ui.fragments.AboutFragment"
+        android:label="À propos" />
+
+    <fragment
+        android:id="@+id/abacusFragment"
+        android:name="ca.ulaval.ima.tp2.ui.fragments.AbacusFragment"
+        android:label="Abacus" />
+
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="ca.ulaval.ima.tp2.ui.fragments.FormFragment"
+        android:label="Formulaire">
+        <action
+            android:id="@+id/actionFormFragmentToProfileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ca.ulaval.ima.tp2.ui.fragments.ProfileFragment"
+        android:label="Mon Profil">
+        <argument
+            android:name="user"
+            app:argType="ca.ulaval.ima.tp2.model.User" />
+    </fragment>
+</navigation>
